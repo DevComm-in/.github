@@ -14,6 +14,7 @@ mDevComm.whatCanYouDo();
 System.out.println("Our Products");
 mDevComm.listYourProducts();
 
+System.out.println("Our Team");
 List<Member> team = mDevComm.getTeamMembers();
 while(team.hasMember()){
    System.out.println(team.nextMember());
@@ -21,22 +22,26 @@ while(team.hasMember()){
 
 ```
 
-<br>
-
 
 
 ```bash
 
 About Devcomm
-DevComm is vjnnnpe jrrrrrrrrrrrrrrrrrrrrk rkkkkkk rbbrt brbrrrrrrgbbbbbbbbbbbr rrghr grgrr rrgrtt rrrgrr k rkkkkkk rbbrt brbrrrrrrgbbbbbbbbbbbr rrghr grgrr rrgrtt rrrgrr
+DevComm is ...
 
 
 Our Services
-DevComm provides vjnnnpe jrrrrrrrrrrrrrrrrrrrrk rkkkkkk rbbrt brbrrrrrrgbbbbbbbbbbbr rrghr grgrr rrgrtt rrrgrr k rkkkkkk rbbrt brbrrrrrrgbbbbbbbbbbbr rrghr grgrr rrgrtt rrrgrr
+DevComm provides ...
 
 
 Our Products
-1. nnkjn
-2. ntjn
-3. gjnjn
+1. ...
+2. ...
+3. ...
+
+
+Our Team
+1. Sachin Kumar
+2. Subhash Panndey
+
 ```
