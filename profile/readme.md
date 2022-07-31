@@ -1,9 +1,16 @@
 # [DevComm](https://devcomm.me/project)
 
-   
-```java
 
-DevComm mDevComm = new DevComm();
+<table>
+<tr>
+<th width="50%"> Code </th>
+<th width="50%"> Output </th>
+</tr>
+<tr>
+<td width="50%">
+
+```java
+DevComm mDevComm = new DevComm();                            
 
 System.out.println("About DevComm");
 mDevComm.introduceYourself();
@@ -19,16 +26,15 @@ List<Member> team = mDevComm.getTeamMembers();
 while(team.hasMember()){
    System.out.println(team.nextMember());
 }
-
 ```
 
+</td>
+<td width="50%">
 
-
-## Output
 ```bash
 
 About Devcomm
-DevComm is ...
+DevComm is ...                                    
 
 
 Our Services
@@ -44,5 +50,14 @@ Our Products
 Our Team
 1. Sachin Kumar
 2. Subhash Panndey
-
 ```
+
+</td>
+</tr>
+</table>
+
+
+
+
+## Output
+
