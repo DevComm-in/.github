@@ -31,7 +31,7 @@ while(team.hasMember()){
 </td>
 <td width="50%">
 
-```bash
+```kotlin
 
 About Devcomm
 DevComm is ...                                    
